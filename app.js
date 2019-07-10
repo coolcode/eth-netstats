@@ -28,6 +28,7 @@ else
 		console.error("WS_SECRET NOT SET!!!");
 	}
 }
+console.log("WS_SECRET: ", WS_SECRET)
 
 var banned = require('./lib/utils/config').banned;
 
