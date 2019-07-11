@@ -4,7 +4,7 @@ html {
 
 body {
 	width: 100%;
-	min-width: 1900px;
+	/*min-width: 1900px;*/
 	font-smooth: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -92,8 +92,7 @@ table td {
 }
 
 .container-fluid {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 15px 30px 15px;
 }
 
 .stat-holder {

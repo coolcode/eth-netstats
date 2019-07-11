@@ -91,8 +91,7 @@ table td {
 }
 
 .container-fluid {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 15px 30px 15px;
 }
 
 .stat-holder {
