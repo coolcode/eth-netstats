@@ -224,7 +224,7 @@ angular.module('netStatsApp.directives', [])
 							warning: '#FFD162',
 							orange: '#FF8A00',
 							danger: '#F74B4B',
-							defaultFill: '#282828'
+							defaultFill: '#06b6a6'
 						},
 						geographyConfig: {
 							borderWidth: 0,

@@ -8,6 +8,7 @@ body {
 	font-smooth: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color:#ffffff;
 }
 
 table td {
@@ -30,27 +31,43 @@ table td {
 
 .bg-success,
 .text-success .propagationBox {
-	background: #7bcc3a;
+	background: #06b6a6;
 }
 
 .bg-info,
 .text-info .propagationBox {
-	background: #10a0de;
+	background: #07b688;
 }
 
 .bg-warning,
 .text-warning .propagationBox {
-	background: #FFD162;
+	background: #ff8a00;
 }
 
 .bg-orange,
 .text-orange .propagationBox {
-	background: #ff8a00;
+	background: #ff7810;
 }
 
 .bg-danger,
 .text-danger .propagationBox {
-	background: #F74B4B;
+	background: #fa3c02;
+}
+
+.text-success{
+	color: #06b6a6;
+}
+.text-info{
+	color: #07b688;
+}
+.text-warning{
+	color:#ff8a00;
+}
+.text-orange{
+	color: #ff7810;
+}
+.text-danger{
+	color:#fa3c02;
 }
 
 .text-gray .propagationBox {
@@ -63,7 +80,7 @@ table td {
 .bg-warning,
 .bg-orange,
 .bg-danger {
-	color: #000;
+	color: #ffffff;
 }
 
 .text-gray {
@@ -80,8 +97,8 @@ table td {
 }
 
 .stat-holder {
-	background: #090909;
-	border: 1px solid rgba(255,255,255,0.05);
+	/*background: #090909;*/
+	border: 1px solid #434343;
 }
 
 .big-info {
@@ -111,7 +128,7 @@ div.small-title-miner {
 	line-height: 20px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	color: #aaa;
+	color: #434343;
 }
 
 span.small-title span.small {
@@ -126,8 +143,8 @@ span.small-title span.small {
 
 .big-info .big-details {
 	display: block;
-	font-weight: 200;
-	font-size: 50px;
+	/*font-weight: 200;*/
+	font-size: 35px;
 	line-height: 55px;
 	letter-spacing: -4px;
 	word-spacing: nowrap !important;
@@ -155,7 +172,7 @@ span.small-title span.small {
 
 .big-info.chart {
 	height: 120px;
-	-webkit-box-sizing: border-box
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -269,6 +286,7 @@ table th {
 table th i {
 	line-height: 1em;
 	font-size: 20px;
+	color: #f6f6f6;
 }
 table td i {
 	position: relative;
@@ -466,4 +484,13 @@ svg .axis text {
 
 svg .y.axis .tick:first-child text {
 	opacity: 0;
+}
+
+table{
+	border:2px solid #434343;
+}
+
+table thead {
+	background-color: #06b6b6;
+	color:#f7f7f7;
 }

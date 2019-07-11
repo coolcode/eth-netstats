@@ -3,8 +3,10 @@
 	"description": "Ethereum Network Intelligence dashboard",
 	"version": "0.0.9",
 	"private": true,
+	"main": "app.js",
 	"scripts": {
-		"start": "node ./bin/www"
+		"start": "grunt && node ./bin/www",
+		"lite": "grunt lite && LITE=true node ./bin/www"
 	},
 	"dependencies": {
 		"body-parser": "^1.19.0",
@@ -29,17 +31,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cubedro/eth-netstats.git"
+		"url": "https://github.com/coolcode/eth-netstats.git"
 	},
-	"homepage": "https://github.com/cubedro/eth-netstats",
+	"homepage": "https://github.com/coolcode/eth-netstats",
 	"bugs": {
-		"url": "https://github.com/cubedro/eth-netstats/issues"
+		"url": "https://github.com/coolcode/eth-netstats/issues"
 	},
 	"authors": [
 		{
-			"name": "Marian Oancea",
-			"email": "marian@ethdev.com",
-			"url": "https://github.com/cubedro"
+			"name": "Bruce Lee",
+			"email": "coolcode@live.com",
+			"url": "https://github.com/coolcode"
 		}
 	],
 	"license": "LGPL-3.0",

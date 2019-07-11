@@ -13,3 +13,4 @@ config/nodes.js
 stats.json
 package-lock.json
 yarn.lock
+.idea
